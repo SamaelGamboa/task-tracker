@@ -22,7 +22,7 @@ https://task-tracker-eight-green.vercel.app/
 git clone https://github.com/PyroHornet/task-tracker.git
 cd task-tracker
 npm install
-npm start
+npm dev run
 ```
 
 ## Progress & Learning
