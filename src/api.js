@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://task-tracker-qb2g.onrender.com';
 
 export const getTasks = () => fetch(`${API_BASE}/tasks`).then(r => r.json());
 
