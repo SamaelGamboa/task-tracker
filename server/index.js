@@ -7,7 +7,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-app.use(cors({ origin: 'https://task-tracker-eight-green.vercel.app/' }));
+app.use(cors({ origin: 'https://task-tracker-eight-green.vercel.app' }));
 app.use(express.json());
 
 app.get('/tasks', async (req, res) => {
